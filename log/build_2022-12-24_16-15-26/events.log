@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000512] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.014183] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.014468] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/bruno/dev_ws/src/my_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bruno/dev_ws/install/my_bot'], 'cwd': '/home/bruno/dev_ws/build/my_bot', 'env': OrderedDict([('USER', 'bruno'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruno'), ('OLDPWD', '/home/bruno/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '62423'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bruno'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bruno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bruno-Aspire:@/tmp/.ICE-unix/1034,unix/bruno-Aspire:/tmp/.ICE-unix/1034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76e87fe9_4f89_421a_9ef0_afc462e80d37'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5KYXX1'), ('GNOME_TERMINAL_SERVICE', ':1.1874'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruno/dev_ws/build/my_bot'), ('LC_ALL', 'pt_BR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099708] (-) TimerEvent: {}
+[0.124777] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.197544] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.199827] (-) TimerEvent: {}
+[0.206764] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.272060] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.279905] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.280310] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.280866] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.284697] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299921] (-) TimerEvent: {}
+[0.357448] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.371109] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.371561] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.372240] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.375163] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400034] (-) TimerEvent: {}
+[0.500283] (-) TimerEvent: {}
+[0.561320] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.600400] (-) TimerEvent: {}
+[0.628400] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.649458] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700551] (-) TimerEvent: {}
+[0.730844] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.735581] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.736453] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.737172] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.739491] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.740994] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.743581] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[0.744514] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/bruno/dev_ws/build/my_bot\n'}
+[0.750496] (my_bot) CommandEnded: {'returncode': 0}
+[0.751190] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.751830] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bruno/dev_ws/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/home/bruno/dev_ws/build/my_bot', 'env': OrderedDict([('USER', 'bruno'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruno'), ('OLDPWD', '/home/bruno/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '62423'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bruno'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bruno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bruno-Aspire:@/tmp/.ICE-unix/1034,unix/bruno-Aspire:/tmp/.ICE-unix/1034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76e87fe9_4f89_421a_9ef0_afc462e80d37'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5KYXX1'), ('GNOME_TERMINAL_SERVICE', ':1.1874'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruno/dev_ws/build/my_bot'), ('LC_ALL', 'pt_BR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.782865] (my_bot) CommandEnded: {'returncode': 0}
+[0.797728] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.800664] (-) TimerEvent: {}
+[0.807193] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bruno/dev_ws/build/my_bot'], 'cwd': '/home/bruno/dev_ws/build/my_bot', 'env': OrderedDict([('USER', 'bruno'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruno'), ('OLDPWD', '/home/bruno/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '62423'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bruno'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bruno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bruno-Aspire:@/tmp/.ICE-unix/1034,unix/bruno-Aspire:/tmp/.ICE-unix/1034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76e87fe9_4f89_421a_9ef0_afc462e80d37'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5KYXX1'), ('GNOME_TERMINAL_SERVICE', ':1.1874'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruno/dev_ws/build/my_bot'), ('LC_ALL', 'pt_BR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.814075] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.814419] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.814885] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.822089] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.829393] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.837406] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.844088] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.851571] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.858440] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.866437] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.873347] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.880005] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.887223] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.894047] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.900754] (-) TimerEvent: {}
+[0.901250] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.908073] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.915046] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.921910] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.928903] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.936900] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.944431] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/bruno/dev_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.955286] (my_bot) CommandEnded: {'returncode': 0}
+[0.998759] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.999292] (-) EventReactorShutdown: {}
